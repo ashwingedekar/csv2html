@@ -1,0 +1,37 @@
+manufacturer: Cisco
+model: Cisco_1800
+slug: cisco_1800
+description: ''
+default_platform: Catalyst IOS XE
+part_number: Cisco_1800
+u_height: 1.0
+is_full_depth: true
+subdevice_role: ''
+airflow: front-to-rear
+weight: 1.0
+weight_unit: kg
+comments: ok
+power-ports:
+- name: PS1
+  type: iec-60320-c14
+  maximum_draw: 119
+  allocated_draw: 102
+  label: ''
+  description: ''
+interfaces:
+- name: "FastEthernet0/0"
+  type: "100base-tx"
+  enabled: true
+- name: "FastEthernet0/1"
+  type: "100base-tx"
+  enabled: true
+- name: "Serial0/0/0"
+  type: "serial"
+  enabled: true
+  description: "WAN connection"
+- name: "Console"
+  type: "console"
+  enabled: true
+- name: "Auxiliary"
+  type: "auxiliary"
+  enabled: true
